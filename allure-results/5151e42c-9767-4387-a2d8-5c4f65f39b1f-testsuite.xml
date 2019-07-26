@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1564140438856' stop='1564140444218'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1564140438856' status='passed' stop='1564140442952'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1564140438863' status='passed' stop='1564140442930'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='42a19339-9e8c-466d-b560-c8d397b8e1b0-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1564140442931' status='passed' stop='1564140442950'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='a5b7fc64-9a0e-4e07-8ac4-31a23dd70748-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1564140442953' status='failed' stop='1564140444217'>
+            <name>test 2</name>
+            <title>test 2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1564140442954' status='passed' stop='1564140444191'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bf1e194e-2bc3-40bc-a58c-b25995b2a00c-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1564140444192' status='passed' stop='1564140444211'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='6fb2ce5e-3ccd-4699-9080-94d490bcbb3d-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Input A expected to strictly equal input B:
+                + expected - actual
+                
+                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'
+                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Input A expected to strictly equal input B:
+                + expected - actual
+                
+                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'
+                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'
+                    at Context.it (/home/maxim/webdriverio_new 5.0/webdriverio-test/test/specs/basic.js:14:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
