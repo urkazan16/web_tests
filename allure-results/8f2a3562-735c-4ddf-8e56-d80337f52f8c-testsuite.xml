@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1564147340288' stop='1564147347555'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1564147340289' status='failed' stop='1564147347552'>
+            <name>test 2</name>
+            <title>test 2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1564147340295' status='passed' stop='1564147347504'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b9353b71-afb3-409f-9f1c-6abc7de1cfc2-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1564147347505' status='passed' stop='1564147347545'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='9443e68e-2dc5-4d30-965d-5b61938f3c8c-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Input A expected to strictly equal input B:
+                + expected - actual
+                
+                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'
+                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Input A expected to strictly equal input B:
+                + expected - actual
+                
+                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'
+                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'
+                    at Context.it (/home/maxim/webdriverio_new 5.0/webdriverio-test/test/specs/basic.js:8:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

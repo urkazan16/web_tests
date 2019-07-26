@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-describe('webdriver.io page', () => {
+describe('webdriver.io page ONE', () => {
 
     it('test 2', () => {
         browser.url('https://webdriver.io');
