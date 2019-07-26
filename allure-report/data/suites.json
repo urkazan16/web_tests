@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "webdriver.io page",
+    "children" : [ {
+      "name" : "should have the right title",
+      "uid" : "4709e14afb619efc",
+      "parentUid" : "601e7f3c0a9c957fa7f229ca6a567c98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564136090521,
+        "stop" : 1564136093462,
+        "duration" : 2941
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "601e7f3c0a9c957fa7f229ca6a567c98"
+  } ],
+  "name" : "suites"
+}
