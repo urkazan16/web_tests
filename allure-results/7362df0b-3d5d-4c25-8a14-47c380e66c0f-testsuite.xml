@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1564149014742' stop='1564149023290'>
+    <name>webdriver.io page TWo</name>
+    <title>webdriver.io page TWo</title>
+    <test-cases>
+        <test-case start='1564149014742' status='passed' stop='1564149023288'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1564149014755' status='passed' stop='1564149023257'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fd312588-9584-455b-96c0-4e993c5a66a6-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1564149023257' status='passed' stop='1564149023283'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='e8eb917e-9078-48df-a979-f637c2c05110-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

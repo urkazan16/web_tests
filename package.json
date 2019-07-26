@@ -22,6 +22,7 @@
     "@wdio/sync": "^5.11.10"
   },
   "dependencies": {
-    "allure-commandline": "^2.9.0"
+    "allure-commandline": "^2.9.0",
+    "circleci": "^0.3.3"
   }
 }
