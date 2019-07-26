@@ -1,12 +1,12 @@
 {
-  "uid" : "4709e14afb619efc",
+  "uid" : "3bde91037fb30035",
   "name" : "should have the right title",
   "fullName" : "webdriver.io page.should have the right title",
   "historyId" : "f272ea613d00cb82c03e7f941d2a1dc2",
   "time" : {
-    "start" : 1564136090521,
-    "stop" : 1564136093462,
-    "duration" : 2941
+    "start" : 1564140502745,
+    "stop" : 1564140507976,
+    "duration" : 5231
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,16 +18,16 @@
     "steps" : [ {
       "name" : "POST /session/:sessionId/url",
       "time" : {
-        "start" : 1564136090529,
-        "stop" : 1564136093441,
-        "duration" : 2912
+        "start" : 1564140502754,
+        "stop" : 1564140507958,
+        "duration" : 5204
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "8f2f2bd6b356edad",
+        "uid" : "cb398b166ab656b",
         "name" : "Request",
-        "source" : "8f2f2bd6b356edad.json",
+        "source" : "cb398b166ab656b.json",
         "type" : "application/json",
         "size" : 36
       } ],
@@ -39,16 +39,16 @@
     }, {
       "name" : "GET /session/:sessionId/title",
       "time" : {
-        "start" : 1564136093441,
-        "stop" : 1564136093458,
-        "duration" : 17
+        "start" : 1564140507959,
+        "stop" : 1564140507975,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "fa6a59526793ac37",
+        "uid" : "40553e58f9e02b2e",
         "name" : "Response",
-        "source" : "fa6a59526793ac37.json",
+        "source" : "40553e58f9e02b2e.json",
         "type" : "application/json",
         "size" : 62
       } ],
@@ -74,7 +74,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
     "value" : "webdriver.io page"
@@ -96,14 +96,12 @@
     "value" : "chrome"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4709e14afb619efc.json",
+  "source" : "3bde91037fb30035.json",
   "parameterValues" : [ "chrome" ]
 }

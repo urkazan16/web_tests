@@ -1,5 +1,37 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+      "children" : [ {
+        "name" : "test 2",
+        "uid" : "7a1d684d248d1d06",
+        "parentUid" : "445f1b1ae95388967ec1a6df73269c0f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564147340289,
+          "stop" : 1564147347552,
+          "duration" : 7263
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "test 2",
+        "uid" : "17d031d0e8baa851",
+        "parentUid" : "445f1b1ae95388967ec1a6df73269c0f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564151734247,
+          "stop" : 1564151740157,
+          "duration" : 5910
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "445f1b1ae95388967ec1a6df73269c0f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

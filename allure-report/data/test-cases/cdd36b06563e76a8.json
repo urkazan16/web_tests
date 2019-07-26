@@ -1,0 +1,111 @@
+{
+  "uid" : "cdd36b06563e76a8",
+  "name" : "test 2",
+  "fullName" : "webdriver.io page ONE.test 2",
+  "historyId" : "31dc1e54adde59be67463ec5f948c1fb",
+  "time" : {
+    "start" : 1564147408721,
+    "stop" : 1564147417686,
+    "duration" : 8965
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'\n                    at Context.it (/home/maxim/webdriverio_new 5.0/webdriverio-test/test/specs/basic.js:8:16)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'\n                    at Context.it (/home/maxim/webdriverio_new 5.0/webdriverio-test/test/specs/basic.js:8:16)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1564147408731,
+        "stop" : 1564147417648,
+        "duration" : 8917
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "161ea1ceac1cf79e",
+        "name" : "Request",
+        "source" : "161ea1ceac1cf79e.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1564147417649,
+        "stop" : 1564147417675,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d277dae05477913",
+        "name" : "Response",
+        "source" : "4d277dae05477913.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "webdriver.io page ONE"
+  }, {
+    "name" : "testClass",
+    "value" : "webdriver.io page ONE"
+  }, {
+    "name" : "testMethod",
+    "value" : "test 2"
+  }, {
+    "name" : "package",
+    "value" : "webdriver.io page ONE"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdd36b06563e76a8.json",
+  "parameterValues" : [ "chrome" ]
+}

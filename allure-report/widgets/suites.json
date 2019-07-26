@@ -1,8 +1,30 @@
 {
-  "total" : 1,
+  "total" : 3,
   "items" : [ {
     "uid" : "601e7f3c0a9c957fa7f229ca6a567c98",
     "name" : "webdriver.io page",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "2fb25a950bdf983ca34c8a91091644b1",
+    "name" : "webdriver.io page ONE",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "639f90bb40813efd48e35669da6c477e",
+    "name" : "webdriver.io page TWo",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

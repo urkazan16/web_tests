@@ -1,0 +1,153 @@
+{
+  "uid" : "17d031d0e8baa851",
+  "name" : "test 2",
+  "fullName" : "webdriver.io page ONE.test 2",
+  "historyId" : "31dc1e54adde59be67463ec5f948c1fb",
+  "time" : {
+    "start" : 1564151734247,
+    "stop" : 1564151740157,
+    "duration" : 5910
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'\n                    at Context.it (/home/maxim/webdriverio_new 5.0/webdriverio-test/test/specs/basic.js:8:16)",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'\n                    at Context.it (/home/maxim/webdriverio_new 5.0/webdriverio-test/test/specs/basic.js:8:16)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1564151734260,
+        "stop" : 1564151740091,
+        "duration" : 5831
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a301a9a382bd6d7",
+        "name" : "Request",
+        "source" : "7a301a9a382bd6d7.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1564151740091,
+        "stop" : 1564151740141,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2060661b0aa7fb67",
+        "name" : "Response",
+        "source" : "2060661b0aa7fb67.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "webdriver.io page ONE"
+  }, {
+    "name" : "testClass",
+    "value" : "webdriver.io page ONE"
+  }, {
+    "name" : "testMethod",
+    "value" : "test 2"
+  }, {
+    "name" : "package",
+    "value" : "webdriver.io page ONE"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a72148ec0ef80f4",
+      "status" : "failed",
+      "statusDetails" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+      "time" : {
+        "start" : 1564150757859,
+        "stop" : 1564150765072,
+        "duration" : 7213
+      }
+    }, {
+      "uid" : "a60414fa92fe6ccc",
+      "status" : "failed",
+      "statusDetails" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+      "time" : {
+        "start" : 1564149014718,
+        "stop" : 1564149023742,
+        "duration" : 9024
+      }
+    }, {
+      "uid" : "250c782752bfab35",
+      "status" : "failed",
+      "statusDetails" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+      "time" : {
+        "start" : 1564147473423,
+        "stop" : 1564147490397,
+        "duration" : 16974
+      }
+    }, {
+      "uid" : "cdd36b06563e76a8",
+      "status" : "failed",
+      "statusDetails" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+      "time" : {
+        "start" : 1564147408721,
+        "stop" : 1564147417686,
+        "duration" : 8965
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "17d031d0e8baa851.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,2 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jul 26 13:14:50 MSK 2019","Fri Jul 26 13:14:53 MSK 2019","2941","","webdriver.io page","","webdriver.io page","should have the right title","should have the right title",""
+"passed","Fri Jul 26 17:35:34 MSK 2019","Fri Jul 26 17:35:40 MSK 2019","5906","","webdriver.io page TWo","","webdriver.io page TWo","should have the right title","should have the right title",""
+"failed","Fri Jul 26 16:22:20 MSK 2019","Fri Jul 26 16:22:27 MSK 2019","7263","","webdriver.io page","","webdriver.io page","test 2","test 2",""
+"passed","Fri Jul 26 16:22:20 MSK 2019","Fri Jul 26 16:22:27 MSK 2019","7053","","webdriver.io page","","webdriver.io page","should have the right title","should have the right title",""
+"failed","Fri Jul 26 17:35:34 MSK 2019","Fri Jul 26 17:35:40 MSK 2019","5910","","webdriver.io page ONE","","webdriver.io page ONE","test 2","test 2",""

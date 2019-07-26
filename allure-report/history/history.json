@@ -9,12 +9,71 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4709e14afb619efc",
+      "uid" : "888684c553e6eaef",
       "status" : "passed",
       "time" : {
-        "start" : 1564136090521,
-        "stop" : 1564136093462,
-        "duration" : 2941
+        "start" : 1564147340291,
+        "stop" : 1564147347344,
+        "duration" : 7053
+      }
+    } ]
+  },
+  "283b7f3f322ffc82958be32988433e13" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a1d684d248d1d06",
+      "status" : "failed",
+      "statusDetails" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+      "time" : {
+        "start" : 1564147340289,
+        "stop" : 1564147347552,
+        "duration" : 7263
+      }
+    } ]
+  },
+  "34c315b35ff5a68ea4e83c963b549fd3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "675369359dbcfa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564151734215,
+        "stop" : 1564151740121,
+        "duration" : 5906
+      }
+    } ]
+  },
+  "31dc1e54adde59be67463ec5f948c1fb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17d031d0e8baa851",
+      "status" : "failed",
+      "statusDetails" : "Input A expected to strictly equal input B:\n                + expected - actual\n                \n                - 'WebdriverIO · Next-gen WebDriver test framework for Node.js'\n                + 'WebdriverIO · Next-gen WebDriver test framework for Node 2.js'",
+      "time" : {
+        "start" : 1564151734247,
+        "stop" : 1564151740157,
+        "duration" : 5910
       }
     } ]
   }
