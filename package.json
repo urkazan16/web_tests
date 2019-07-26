@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server sample-site -p 8303",
+    "startser": "selenium-standalone start",
+    "test": "wdio wdio.conf.js",
+    "one test": "npm test -- --spec=test/mob_test/320px/request_call_back_mob_320.js"
   },
   "keywords": [],
   "author": "",
